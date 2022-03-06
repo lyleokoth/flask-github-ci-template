@@ -16,6 +16,6 @@ class MyTestCase(unittest.TestCase):
         data = json.loads(response.data.decode('utf-8'))
 
         assert response.status_code == 200
-        assert type(data) is not dict
+        assert type(data) is dict
 
 
