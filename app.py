@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def index():
-    return {'Welcome': 'Lyle'}
+    return {'Welcome': 'Failed deploy'}
 
 
 if __name__ == '__main__':
